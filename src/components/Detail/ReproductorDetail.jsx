@@ -14,7 +14,7 @@ function ReproductorDetail({reproductor}) {
 
     useEffect(() => {
         const NewCharacter = async() => {
-            const character = (await axios(`http://localhost:3002/rickandmorty/character/${id.id}`)).data
+            const character = (await axios(`https://rym2.up.railway.app/api/character/${id.id}?key=pi-luisfgt`)).data
             if(character.name) {
                 setCharacter(character)
             } else {setLoading(true)}
