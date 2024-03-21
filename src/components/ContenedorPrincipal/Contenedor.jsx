@@ -1,12 +1,9 @@
 import style from './Contenedor.module.css'
 import VistaPrevia from '../VistaPrevisa/VistaPrevia';
 import Nav from '../Nav/Nav';
-import { useState } from 'react';
-import axios from 'axios'
 import Reproductor from '../reproductor/reproductor';
-import TransitionComponent from '../TransitionComponent/transitionComponent';
+import TransitionComponent from '../TransitionComponent/TransitionComponent.jsx';
 import reproductorTv from '../reproductor/TV.png'
-import Loader from '../Loader/Loader';
 
 
 const ContenedorPadre = ({ characters, onClose, loading, loadChar}) => {
