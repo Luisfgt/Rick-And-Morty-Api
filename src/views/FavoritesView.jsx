@@ -1,4 +1,4 @@
-import Favorites from "../components/Favorites/Favorites";
+import Favorites from "../components/Favorites/Favorites.jsx";
 
 const FavoritesView = () => {
     return <Favorites />

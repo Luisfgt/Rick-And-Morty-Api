@@ -1,4 +1,4 @@
-import ContenedorPadre from "../components/ContenedorPrincipal/Contenedor";
+import ContenedorPadre from "../components/ContenedorPrincipal/Contenedor.jsx";
 
 function About () {
 return(<>

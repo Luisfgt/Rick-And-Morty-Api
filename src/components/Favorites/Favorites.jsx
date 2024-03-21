@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux'
 import Style from './Favorites.module.css'
-import Casetes from '../Casetes/Casetes'
-import { filterCards, orderCards } from '../../redux/actions';
-import TransitionComponent from '../TransitionComponent/transitionComponent';
+import Casetes from '../Casetes/Casetes.jsx'
+import { filterCards, orderCards } from '../../redux/actions.js';
+import TransitionComponent from '../TransitionComponent/TransitionComponent.jsx';
 
 
 const Favorites = () => {

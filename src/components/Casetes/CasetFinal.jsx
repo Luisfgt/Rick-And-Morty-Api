@@ -3,8 +3,8 @@ import style from '../VistaPrevisa/VistaPrevia.module.css'
 import { Link, useLocation } from 'react-router-dom';
 import { useDispatch } from "react-redux";
 import { useState } from "react";
-import { addFav, removeFav } from "../../redux/actions";
-import LoaderCard from "../LoaderCard/LoaderCard";
+import { addFav, removeFav } from "../../redux/actions.js";
+import LoaderCard from "../LoaderCard/LoaderCard.jsx";
 
 
 

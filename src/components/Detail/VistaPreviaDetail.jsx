@@ -1,14 +1,6 @@
-import style from '../ContenedorPrincipal/Contenedor.module.css'
-import Casetes from '../Casetes/Casetes'
-import ReproductorDetail from '../Detail/ReproductorDetail'
-import reproductorTv from '../reproductor/TV.png'
-import { useState } from 'react'
-
-
+import Casetes from '../Casetes/Casetes.jsx'
 
 const VistaPreviaDetail = ({ characters, onClose, changeTv }) => {
-
-
     return (
         <>
             <Casetes

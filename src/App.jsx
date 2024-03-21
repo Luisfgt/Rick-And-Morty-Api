@@ -1,17 +1,15 @@
 import './App.css'
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import ContenedorPadre from './components/ContenedorPrincipal/Contenedor';
-import Nav from './components/Nav/Nav';
-import Detail from './views/Detail';
-import About from './views/About';
+import Nav from './components/Nav/Nav.jsx';
+import Detail from './views/Detail.jsx';
+import About from './views/About.jsx';
 import style from './styles.module.css'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Form from './components/About/Form/Form';
-import FavoritesView from './views/FavoritesView';
-import Select from './components/Select/Select';
-import Loader from './components/Loader/Loader';
-import LoaderCard from './components/LoaderCard/LoaderCard';
+import Form from './components/About/Form/Form.jsx';
+import FavoritesView from './views/FavoritesView.jsx';
+import Loader from './components/Loader/Loader.jsx';
 
 
 

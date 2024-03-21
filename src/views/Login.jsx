@@ -1,4 +1,4 @@
-import Form from "../components/About/Form/Form";
+import Form from "../components/About/Form/Form.jsx";
 
 function Login() {
     return (

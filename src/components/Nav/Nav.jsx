@@ -1,6 +1,6 @@
 import Style from './Nav.module.css'
-import SearchBar from "../SearchBar"
-import { Link, useLocation, redirect } from "react-router-dom";
+import SearchBar from "../SearchBar.jsx"
+import { Link, useLocation} from "react-router-dom";
 import logo from '../../assets/gifRick.gif'
 
 

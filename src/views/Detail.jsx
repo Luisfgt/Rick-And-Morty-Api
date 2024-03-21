@@ -1,4 +1,4 @@
-import ContenedorPadreDetail from "../components/Detail/ContenedorPadreDetail";
+import ContenedorPadreDetail from "../components/Detail/ContenedorPadreDetail.jsx";
 const Detail = ({characters, onClose}) => {
 
 

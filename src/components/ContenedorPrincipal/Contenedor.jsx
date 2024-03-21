@@ -1,7 +1,6 @@
 import style from './Contenedor.module.css'
-import VistaPrevia from '../VistaPrevisa/VistaPrevia';
-import Nav from '../Nav/Nav';
-import Reproductor from '../reproductor/reproductor';
+import VistaPrevia from '../VistaPrevisa/VistaPrevia.jsx';
+import Reproductor from '../reproductor/reproductor.jsx';
 import TransitionComponent from '../TransitionComponent/TransitionComponent.jsx';
 import reproductorTv from '../reproductor/TV.png'
 

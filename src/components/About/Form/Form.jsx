@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import style from './Form.module.css';
-import validation from './validation';
 import caset from '../../../assets/caseteLogin.png';
 import videoLogin from './VideoTV_byn.mp4';
 

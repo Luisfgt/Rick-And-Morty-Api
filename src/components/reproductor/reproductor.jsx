@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import style from '../reproductor/reproductor.module.css'
-import reproductor from '../reproductor/TV.png'
 import videoTv from '../reproductor/VideoTV.mp4'
 
 function Reproductor({reproductor}) {

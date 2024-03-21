@@ -1,15 +1,10 @@
-import style from '../VistaPrevisa/VistaPrevia.module.css'
-import Caset from "./Caset";
 import miImagen from '../VistaPrevisa/assets/Recurso 4.png'
 import miImagen2 from '../VistaPrevisa/assets/Recurso 6.png'
 import miImagen3 from '../VistaPrevisa/assets/Recurso 7.png'
 import miImagen4 from '../VistaPrevisa/assets/Recurso 8.png'
-import { Link, useLocation } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { useState } from 'react';
-import { addFav, removeFav } from '../../redux/actions';
+import { useSelector } from 'react-redux';
 import favCasete from '../VistaPrevisa/assets/CassFav.png'
-import CasetFinal from './CasetFinal';
+import CasetFinal from './CasetFinal.jsx';
 
 
 const casetes = [

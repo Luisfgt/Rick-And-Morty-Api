@@ -1,13 +1,8 @@
 import { useEffect, useState } from 'react'
 import style from '../reproductor/reproductor.module.css'
-import reproductorTv from '../reproductor/TV.png'
-import reproductorTv2 from '../reproductor/TV.2.png'
-// import reproductor2 from '../reproductor/TV2.png'
-import videoTv from '../reproductor/VideoTV.mp4'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { addFav, removeFav } from '../../redux/actions'
 
 
 function ReproductorDetail({reproductor}) {
@@ -16,7 +11,6 @@ function ReproductorDetail({reproductor}) {
     const id = useParams()
     const [character, setCharacter] = useState({})
     const [loading, setLoading] = useState(false)
-    const dispatch = useDispatch();
 
     useEffect(() => {
         const NewCharacter = async() => {
@@ -29,8 +23,6 @@ function ReproductorDetail({reproductor}) {
     } , [id.id])
 
     //Funciones
-
-
 
     return <>
         <div className={style.contenedorTV}>

@@ -1,7 +1,4 @@
-import style from './VistaPrevia.module.css'
-import style2 from '../ContenedorPrincipal/Contenedor.module.css'
-import Casetes from '../Casetes/Casetes'
-import ReproductorDetail from '../Detail/ReproductorDetail'
+import Casetes from '../Casetes/Casetes.jsx'
 
 
 

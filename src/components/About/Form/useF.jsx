@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import style from './Form.module.css';
-import validation from './validation';
+import validation from './validation.js';
 import logo from './Rick_and_Morty.svg.png';
 
 function Form({ login }) {

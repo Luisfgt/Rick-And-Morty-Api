@@ -1,12 +1,9 @@
 import style from '../ContenedorPrincipal/Contenedor.module.css'
-import VistaPrevia from '../VistaPrevisa/VistaPrevia';
-import Nav from '../Nav/Nav';
 import { useState } from 'react';
-import axios from 'axios'
-import ReproductorDetail from './ReproductorDetail';
+import ReproductorDetail from './ReproductorDetail.jsx';
 import reproductorTv from '../reproductor/TV.png'
 import reproductorTvClick from '../reproductor/TV.2.png'
-import VistaPreviaDetail from './VistaPreviaDetail';
+import VistaPreviaDetail from './VistaPreviaDetail.jsx';
 
 const ContenedorPadreDetail = ({ characters, onClose }) => {
     console.log(characters);
