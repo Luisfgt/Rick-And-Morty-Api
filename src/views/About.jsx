@@ -1,6 +1,6 @@
 import style from '../styles.module.css'
 import luisImagen from '../components/About/Luis.png'
-import TransitionComponent from '../components/TransitionComponent/transitionComponent'
+import TransitionComponent from '../components/TransitionComponent/TransitionComponent.jsx'
 
 
 const About = () => {
